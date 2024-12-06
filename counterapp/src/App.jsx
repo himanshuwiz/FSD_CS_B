@@ -11,6 +11,7 @@ const App = () => {
         <Route path="/" element={<Home />}></Route>
         <Route path="/counter" element={<Counter />}></Route>
         <Route path="/watch" element={<Stopwatch />}></Route>
+        <Route path="/refex" element={<Refex />}></Route>
         <Route path="*" element={<h1>No Page Available</h1>}></Route>
       </Routes>
     </div>
